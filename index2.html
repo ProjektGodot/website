@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .licht {
+            top: 50%;
+            left: 50%;
+            width: 5px;
+            height: 5px;
+            position: absolute;
+            background-color: rgb(20,65,180);
+            box-shadow: 0px 0px 80px 80px rgb(20,65,180);
+            animation: licht 30s infinite;
+                animation-direction: normal;
+        }
+        
+        @keyframes licht{
+        1% {
+            top: 50%;
+            left: 50%;
+        }
+        2% {
+            top: 53%;
+            left: 47%;
+        }
+        3% {
+            top: 50%;
+            left: 44%;
+        }
+        4% {
+            top: 47%;
+            left: 41%;
+        }
+        5% {
+            top: 44%;
+            left: 44%;
+        }
+        6% {
+            top: 41%;
+            left: 47%;
+        }
+        7% {
+            top: 38%;
+            left: 50%;
+        }
+        8% {
+            top: 35%;
+            left: 53%;
+        }
+        9% {
+            top: 32%;
+            left: 56%;
+        }
+        10% {
+            top: 29%;
+            left: 59%;
+        }
+        11% {
+            top: 26%;
+            left: 62%;
+        }
+        12% {
+            top: 23%;
+            left: 65%;
+        }
+        13% {
+            top: 20%;
+            left: 68%;
+        }
+        14% {
+            top: 27%;
+            left: 71%;
+        }
+        15% {
+            top: 30%;
+            left: 74%;
+        }
+        16% {
+            top: 33%;
+            left: 71%;
+        }
+        17% {
+            top: 36%;
+            left: 68%;
+        }
+        18% {
+            top: 39%;
+            left: 65%;
+        }
+        19% {
+            top: 39%;
+            left: 62%;
+        }
+        20% {
+            top: 42%;
+            left: 59%;
+        }
+        21% {
+            top: 45%;
+            left: 56%;
+        }
+        22% {
+            top: 48%;
+            left: 56%;
+        }
+        23% {
+            top: 51%;
+            left: 56%;
+        }
+        24% {
+            top: 54%;
+            left: 56%;
+        }
+        25% {
+            top: 57%;
+            left: 59%;
+        }
+        26% {
+            top: 60%;
+            left: 62%;
+        }
+        27% {
+            top: 63%;
+            left: 65%;
+        }
+        28% {
+            top: 66%;
+            left: 62%;
+        }
+        29% {
+            top: 69%;
+            left: 59%;
+        }
+        30% {
+            top: 72%;
+            left: 56%;
+        }
+        31% {
+            top: 75%;
+            left: 53%;
+        }
+        32% {
+            top: 78%;
+            left: 50%;
+        }
+        33% {
+            top: 81%;
+            left: 53%;
+        }
+        34% {
+            top: 84%;
+            left: 53%;
+        }
+        35% {
+            top: 87%;
+            left: 53%;
+        }
+        36% {
+            top: 90%;
+            left: 50%;
+        }
+        37% {
+            top: 90%;
+            left: 47%;
+        }
+        38% {
+            top: 93%;
+            left: 50%;
+        }
+        39% {
+            top: 96%;
+            left: 47%;
+        }
+        40% {
+            top: 99%;
+            left: 47%;
+        }
+        41% {
+            top: 96%;
+            left: 44%;
+        }
+        42% {
+            top: 93%;
+            left: 41%;
+        }
+        43% {
+            top: 90%;
+            left: 44%;
+        }
+        44% {
+            top: 90%;
+            left: 44%;
+        }
+        45% {
+            top: 90%;
+            left: 47%;
+        }
+        46% {
+            top: 87%;
+            left: 50%;
+        }
+        47% {
+            top: 84%;
+            left: 47%;
+        }
+        48% {
+            top: 81%;
+            left: 44%;
+        }
+        49% {
+            top: 78%;
+            left: 41%;
+        }
+        50% {
+            top: 75%;
+            left: 43%;
+        }
+        51% {
+            top: 72%;
+            left: 40%;
+        }
+        52% {
+            top: 69%;
+            left: 37%;
+        }
+        53% {
+            top: 66%;
+            left: 34%;
+        }
+        54% {
+            top: 63%;
+            left: 31%;
+        }
+        55% {
+            top: 63%;
+            left: 28%;
+        }
+        56% {
+            top: 60%;
+            left: 25%;
+        }
+        57% {
+            top: 60%;
+            left: 22%;
+        }
+        58% {
+            top: 57%;
+            left: 19%;
+        }
+        59% {
+            top: 54%;
+            left: 22%;
+        }
+        60% {
+            top: 51%;
+            left: 25%;
+        }
+        61% {
+            top: 48%;
+            left: 22%;
+        }
+        62% {
+            top: 45%;
+            left: 19%;
+        }
+        63% {
+            top: 45%;
+            left: 22%;
+        }
+        64% {
+            top: 48%;
+            left: 25%;
+        }
+        65% {
+            top: 48%;
+            left: 28%;
+        }
+        66% {
+            top: 51%;
+            left: 31%;
+        }
+        67% {
+            top: 54%;
+            left: 34%;
+        }
+        68% {
+        }
+        69% {
+            top: 57%;
+            left: 40%;
+        }
+        70% {
+            top: 60%;
+            left: 43%;
+        }
+        71% {
+            top: 63%;
+            left: 46%;
+        }
+        72% {
+            top: 63%;
+            left: 46%;
+        }
+        73% {
+            top: 66%;
+            left: 46%;
+        }
+        74% {
+            top: 69%;
+            left: 49%;
+        }
+        75% {
+            top: 66%;
+            left: 52%;
+        }
+        76% {
+            top: 69%;
+            left: 55%;
+        }
+        77% {
+            top: 72%;
+            left: 58%;
+        }
+        78% {
+            top: 75%;
+            left: 61%;
+        }
+        79% {
+            top: 78%;
+            left: 64%;
+        }
+        80% {
+            top: 81%;
+            left: 67%;
+        }
+        81% {
+            top: 84%;
+            left: 70%;
+        }
+        82% {
+            top: 87%;
+            left: 73%;
+        }
+        83% {
+            top: 87%;
+            left: 70%;
+        }
+        84% {
+            top: 90%;
+            left: 67%;
+        }
+        85% {
+            top: 93%;
+            left: 64%;
+        }
+        86% {
+            top: 90%;
+            left: 61%;
+        }
+        87% {
+            top: 87%;
+            left: 61%;
+        }
+        88% {
+            top: 84%;
+            left: 58%;
+        }
+        89% {
+            top: 87%;
+            left: 55%;
+        }
+        90% {
+            top: 84%;
+            left: 52%;
+        }
+        91% {
+            top: 81%;
+            left: 49%;
+        }
+        92% {
+            top: 78%;
+            left: 46%;
+        }
+        93% {
+            top: 75%;
+            left: 43%;
+        }
+        94% {
+            top: 72%;
+            left: 40%;
+        }
+        95% {
+            top: 69%;
+            left: 40%;
+        }
+        96% {
+            top: 66%;
+            left: 43%;
+        }
+        97% {
+            top: 63%;
+            left: 46%;
+        }
+        98% {
+            top: 60%;
+            left: 49%;
+        }
+        99% {
+            top: 56%;
+            left: 51%;
+        }
+        100% {
+            top: 50%;
+            left: 50%;
+        }
+        } </style>
+</head>
+<body>
+ <div class="licht" style="animation-direction:reverse;animation-delay:3s;"></div>
+      <div class="licht" style="animation-direction:normal;animation-delay:6s;"></div>
+      <div class="licht" style="animation-direction:reverse;animation-delay:9s;"></div>
+      <div class="licht" style="animation-direction:normal;animation-delay:12s;"></div>
+      <div class="licht" style="animation-direction:reverse;animation-delay:15s;"></div>
+      <div style="position:relative;border-radius:10px;background-image:url('resources/hintergrund-min.png');padding-bottom:5%;min-height:98vh;">
+   </div>
+</body>
+</html>
